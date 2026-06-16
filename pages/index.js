@@ -1,5 +1,5 @@
 function Home() {
-  return <div>Ste!! Se vc me ama manda uma foto!</div>;
+  return <div>Ste!! Se vc me ama manda uma foto 😈​!</div>;
 }
 
 export default Home;
