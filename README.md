@@ -36,8 +36,8 @@ npm run dev
 
 ## Scripts disponíveis
 
-| Comando      | Descrição                          |
-| ------------ | ---------------------------------- |
+| Comando       | Descrição                            |
+| ------------- | ------------------------------------ |
 | `npm run dev` | Inicia o app em modo desenvolvimento |
 
 ## Estrutura do projeto
