@@ -30,7 +30,8 @@ async function query(queryObject) {
 }
 
 function getSSLValues() {
-  if (process.env.POSTGRES_HOST === "localhost") {
+  // if (process.env.POSTGRES_HOST === "localhost") {
+  if (process.env.NODE_ENV === "development") {
     return false;
   }
 
