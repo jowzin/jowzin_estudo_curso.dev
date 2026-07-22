@@ -6,6 +6,10 @@ async function waitforAllServices() {
   async function waitforWebServer() {
     return retry(fetchStatusPage, {
       retries: 100,
+<<<<<<< HEAD
+=======
+      maxTimeout: 1000,
+>>>>>>> 199f0f9 (Add orchestrator service test utility to wait for all services; implement retry logic for web server status checks.)
     });
 
     async function fetchStatusPage() {
