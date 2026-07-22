@@ -1,12 +1,5 @@
 function Home() {
-  return <div>Ste!! Se vc me ama manda uma foto 😈​!</div>;
+  return <div>Ste!! Se vc me ama manda uma foto 😈!</div>;
 }
 
-function teste() {
-  console.log("teste");
-}
-
-function teste2() {
-  console.log("teste2");
-}
 export default Home;
